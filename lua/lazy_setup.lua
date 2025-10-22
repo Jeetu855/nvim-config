@@ -30,6 +30,7 @@ require("lazy").setup({
 	{ import = "plugins.flash" },
 	{ import = "plugins.flash" },
 	{ import = "plugins.indent-blankline" },
+	{ import = "plugins.dressing" },
 }, {
 	checker = { enabled = true, notify = false },
 	change_detection = { notify = false },
