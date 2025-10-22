@@ -25,8 +25,8 @@ return {
 				local opts = { buffer = ev.buf, silent = true }
 				local keymap = vim.keymap
 
-				keymap.set("n", "gd", "<cmd>Telescope lsp_definitions<CR>", opts)
-				keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
+				keymap.set("n", "gD", "<cmd>Telescope lsp_definitions<CR>", opts)
+				keymap.set("n", "gd", vim.lsp.buf.declaration, opts)
 				keymap.set("n", "gi", "<cmd>Telescope lsp_implementations<CR>", opts)
 				keymap.set("n", "gt", "<cmd>Telescope lsp_type_definitions<CR>", opts)
 				keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts)
