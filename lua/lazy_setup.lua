@@ -31,6 +31,7 @@ require("lazy").setup({
 	{ import = "plugins.flash" },
 	{ import = "plugins.indent-blankline" },
 	{ import = "plugins.dressing" },
+	{ import = "plugins.nvim-surround" },
 }, {
 	checker = { enabled = true, notify = false },
 	change_detection = { notify = false },
