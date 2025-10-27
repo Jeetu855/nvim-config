@@ -32,6 +32,7 @@ require("lazy").setup({
 	{ import = "plugins.indent-blankline" },
 	{ import = "plugins.dressing" },
 	{ import = "plugins.nvim-surround" },
+	{ import = "plugins.smear_cursor" },
 }, {
 	checker = { enabled = true, notify = false },
 	change_detection = { notify = false },
