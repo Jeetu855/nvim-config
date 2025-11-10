@@ -49,11 +49,13 @@ vim.keymap.set(
 	{ desc = "comment selected lines", noremap = true, silent = true }
 )
 
--- rebind Shift + L to go to the end of the line ($)
-keymap.set("n", "L", "$", { noremap = true, silent = true, desc = "go to end of line" })
+-- rebind Alt + l to go to the end of the line ($)
+keymap.set({ "n", "x", "o" }, "<A-l>", "$", { noremap = true, silent = true, desc = "Go to end of line" })
 
--- rebind Shift + H to go to the beginning of the line (0)
-keymap.set("n", "H", "^", { noremap = true, silent = true, desc = "go to beginning of line" })
+-- rebind ALt + h to go to the beginning of the line (0)
+keymap.set({ "n", "x", "o" }, "<A-h>", "^", { noremap = true, silent = true, desc = "Go to start of line" })
+
+keymap.set("n", "<A-l>", "$", { noremap = true, silent = true, desc = "go to end of line" })
 
 -- auto center on pg up or pg down
 keymap.set("n", "<C-d>", "<C-d>zz")

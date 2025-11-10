@@ -33,6 +33,7 @@ require("lazy").setup({
 	{ import = "plugins.dressing" },
 	{ import = "plugins.nvim-surround" },
 	{ import = "plugins.smear_cursor" },
+	{ import = "plugins.code_runner" },
 }, {
 	checker = { enabled = true, notify = false },
 	change_detection = { notify = false },
