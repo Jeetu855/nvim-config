@@ -34,6 +34,7 @@ require("lazy").setup({
 	{ import = "plugins.nvim-surround" },
 	{ import = "plugins.smear_cursor" },
 	{ import = "plugins.code_runner" },
+	{ import = "plugins.render_markdown" },
 }, {
 	checker = { enabled = true, notify = false },
 	change_detection = { notify = false },
